@@ -1,0 +1,144 @@
+body {
+    background-image: url("https://wallpaperplay.com/walls/full/6/9/b/238359.jpg");
+  }
+
+.custom-main-row{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.custom-main-column{
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.05);
+    padding: 80px;
+    border-radius: 200px;
+}
+.custom-main-column > h1{
+    color: white;
+}
+
+.custom-main-column > h5{
+    color: white;
+}
+
+.custom-main-column > p{
+    color: white;
+}
+
+.custom-main-column > input{
+    margin: 2vmax 0 2vmax 0;
+    border-radius: 20px;
+}
+
+.custom-main-column > button{
+    padding: 10px;
+    border-radius: 40px;
+    outline: none;
+    margin-right: 10px;
+    border: none;
+    color: white;
+    background-color: transparent;
+    border: 2px solid white;
+    transition-duration: 0.7s;
+}
+
+.custom-main-column > button:hover{
+    border-radius: 40px;
+    outline: none;
+    border-right: 2px solid white;
+    border-top: 2px solid transparent;
+    border-left: 2px solid transparent;
+    border-bottom: 2px solid transparent;
+    transition-duration: 0.7s;
+
+}
+
+#message{
+    margin: 20px;
+}
+
+.history-row{
+    background-color: rgba(255, 0, 0, 0.397);
+    position: fixed;
+    width: 15vw;
+    right: 2vw;
+    top: 2vh;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+#history-row > p{
+    margin: 5px;
+    padding: 5px;
+}
+
+.timer-row{
+    background-color: red;
+    position: fixed;
+    top: 2vh;
+    width: 30vw;
+    height: 10vh;
+    left: 36vw;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.lastwon-row{
+    background-color: rgba(255, 0, 0, 0.397);
+    position: fixed;
+    max-width: 16vw;
+    left: 2vw;
+    top: 2vh;
+    border-radius: 40px;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lastwon-row > h5{
+    font-size: 1vmax;
+    padding: 0.7vmax;
+    margin: 10px;
+}
+
+.lastwon-row > p{
+    font-size: 1vmax;
+    padding: 0.7vmax;
+    margin: 10px;
+}
+
+.bestscope-row{
+    background-color: rgba(255, 0, 0, 0.397);
+    position: fixed;
+    max-width: 16vw;
+    left: 19vw;
+    top: 2vh;
+    border-radius: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+.bestscope-row > h5{
+    font-size: 1vmax;
+    padding: 0.7vmax;
+    margin: 10px;
+}
+
+.bestscope-row > p{
+    font-size: 1vmax;
+    padding: 1vmax;
+    margin: 10px;
+}

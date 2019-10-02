@@ -20,6 +20,7 @@ The following **required** functionalities are completed (this is a sample):
 * [x] The user sees feedback about the most recent guess in a Bootstrap alert class div. If the guess is correct, the user will see a div styled with the "success" background.
 * [x] The user is limited to ten guesses to guess the correct number, and can see the number of remaining guesses after each incorrect guess via a "Guesses Remaining" area.
 * [x] The user can restart the game by pressing a "start over" button or link.
+
 The following **optional** features are implemented:
 
 * [x] The user can see a history of past guesses.

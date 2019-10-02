@@ -12,7 +12,7 @@ Here's a walkthrough of implemented user stories.
 
 ## User Stories
 
-The following **required** functionalities are completed (this is a sample):
+The following **required** functionalities are completed:
 
 * [x] The user can attempt to guess a random integer between 1 and 100 by entering a value into a textbox.
 * [x] The user can press a button to check their guess, and receive feedback on whether their guess was too low, too high, or correct.

@@ -8,9 +8,7 @@ This is an Number Guessing Game made from Garfield with Love.
 
 Here's a walkthrough of implemented user stories.
 
-```
 <img src='https://i.imgur.com/umZBxAE.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
-```
 
 ## User Stories
 
